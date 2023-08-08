@@ -4,7 +4,7 @@ Version: 2023-08-08
 Author: Kyungha Kim (bubblebee@unist.ac.kr)
 
 ## Introduction
-This repository provides the analysis process of RNA-seq data from the blood-brain barrier (BBB) endothelial cells. The cells were isolated from the transwell and the microfluidic chip. Each experiment has three biological replicates and the total sample number is six.
+This repository provides the analysis process of RNA-seq data from the blood-brain barrier (BBB) endothelial cells. The cells were isolated from the transwell and the microfluidic chip. Each experiment has three biological replicates.
 
 ## Step 1. Pre-process & align the RNA-seq data to the reference.
 > To start the RNA-seq data processing, install the trimmomatic and the STAR aligner.
