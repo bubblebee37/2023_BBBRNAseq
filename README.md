@@ -7,8 +7,9 @@ Author: Kyungha Kim (bubblebee@unist.ac.kr)
 This repository provides the analysis process of RNA-seq data from the blood-brain barrier (BBB) endothelial cells. The cells were isolated from the transwell, microfluidic chip, and the mouse brain. Each experiment has three biological replicates and the total sample number is nine.
 
 ## Step 1. Pre-process & align the RNA-seq data to the reference.
-> To start the RNA-seq data processing, install the trimmomatic and STAR aligner.
+> To start the RNA-seq data processing, install the trimmomatic and the STAR aligner.
 > You can download the STAR source code from Github (https://github.com/alexdobin/STAR/releases).
 
-1. Make 
-* 
+1. Trim the RNA-seq data (i.e. sample.fastq.gz) by running the bash file '/process_data/01.trimming-RNAseq.sh'.
+2. Align the transcriptome data to the reference by running the bash file '/process_data/02.run-star.sh'.
+   * The reference genome sequence (fasta file) and annotations (GTF file) are required to run the STAR.
