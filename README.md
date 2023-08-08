@@ -15,3 +15,6 @@ This repository provides the analysis process of RNA-seq data from the blood-bra
 2. Align the trimmed transcriptome data to the reference by running the bash file '/process_data/02.run-star.sh'.
    * The reference genome sequence (fasta file) and annotations (GTF file) are required to run the STAR.
    * The path to STAR aligner should be annotated to the bash file.
+3. After running the star, collect the ReadsPerGene.out.tab files of samples and choose one of columns 3 or 4 according to the strandedness of the data. The selected read count column will be used for further analysis.
+
+## Step 2. 
